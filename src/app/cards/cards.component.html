@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4" *ngFor="let cliente of cards">
+            <div class="cliente">
+                <img src="../../assets/{{getImg(cliente.gender)}}" alt="">
+                <div class="cliente-data">
+                    <p>{{cliente.name}}</p>
+                    <p>{{getCountry(cliente.country) + ", " + cliente.city}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

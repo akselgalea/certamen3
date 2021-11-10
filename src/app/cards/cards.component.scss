@@ -1,0 +1,19 @@
+.cliente {
+    width: calc(100% - 1rem);
+    margin: .5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    border: 2px solid black;
+    border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
+    padding: 1rem;
+    
+    img {
+        width: 100px;
+    }
+
+    .cliente-data {
+
+    }
+}

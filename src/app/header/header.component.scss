@@ -1,0 +1,39 @@
+.header-clientes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+    img {
+        width: 100px;
+    }
+
+    p {
+        font-size: 30px;
+        margin: 0;
+    }
+}
+
+.navegador {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 3rem;
+
+    a {
+        text-decoration: none;
+        color: black;
+        i {
+            vertical-align: middle;
+            font-size: 2rem;
+        }
+    }
+    
+    a:not(:first-child) {
+        margin-left: 2rem;
+    }
+
+    a:hover {
+        color: rgb(143, 143, 143);
+    }
+}

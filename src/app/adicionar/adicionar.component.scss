@@ -1,0 +1,49 @@
+.formulario {
+    max-width: 800px;
+    margin: auto;
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        margin-bottom: 1rem;
+
+        p {
+            margin: 0;
+        }
+
+        input[type=text] {
+            padding: .5rem;
+            border-radius: 5px;
+            border: 2px solid #aaa;
+        }
+
+        .invalid {
+            color: rgba(182, 0, 0, 0.705);
+        }
+    }
+
+    select {
+        color: black;
+    }
+
+    .buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 1rem;
+    }
+
+    input[type=radio] {
+        margin-right: 1.5rem;
+    }
+}
+
+#exito {
+    display: none;
+    color: green;
+    font-size: 36px;
+    text-align: center;
+    padding: 2rem;
+}
